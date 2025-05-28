@@ -10,6 +10,8 @@ app.title = "F-t Graph Simulator"
 
 # 레이아웃 구성
 app.layout = dbc.Container([
+    html.Div("AI컴퓨터과 2학년 1반 박서준", className="fw-bold fs-5 mt-3 ms-2"),
+
     html.H2("힘-시간(F-t) 그래프 시뮬레이터", className="text-center my-4"),
 
     dbc.Row([
